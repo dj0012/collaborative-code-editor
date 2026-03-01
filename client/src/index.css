@@ -1,0 +1,50 @@
+/* Reset Layout for Monaco */
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* REMOVE center layout */
+body {
+  display: block;
+  min-height: 100vh;
+}
+
+/* Keep basic theme */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1e1e1e;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border-radius: 6px;
+  border: 1px solid #333;
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+input {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: white;
+}
